@@ -3964,7 +3964,7 @@ input[type=checkbox] ~ label:hover {
 .backtotop-wrap::after {
   position: absolute;
   font-family: var(--rs-ff-fontawesome);
-  content: "\f062";
+  content: "🢁";
   text-align: center;
   line-height: 46px;
   font-size: 16px;
@@ -5224,13 +5224,13 @@ code {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80px;
+  width: 100px;
   text-align: center;
 }
 
 .loader .loader-icon img {
   animation: loaderpulse alternate 900ms infinite;
-  width: 40px;
+  width: 400px;
 }
 
 @keyframes loaderspin {
@@ -5977,9 +5977,9 @@ html.lenis body {
   transition: all, 0.2s, cubic-bezier(0.25, 1, 0.5, 1);
   z-index: -1;
 }
-.rs-theme-dir {
+/* .rs-theme-dir {
   text-align: center;
-}
+} */
 .rs-theme-dir-main {
   display: inline-block;
   width: 160px;
@@ -19284,7 +19284,7 @@ html.lenis body {
   font-size: 15px;
 }
 .rs-team-details .rs-team-details-thumb {
-  border-top: 4px solid var(--rs-theme-orange);
+  /* border-top: 4px solid var(--rs-theme-orange); */
   border-radius: 4px;
   width: 580px;
 }
